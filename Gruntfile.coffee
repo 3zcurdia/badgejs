@@ -12,7 +12,7 @@ module.exports = (grunt) ->
       dist:
         files: [
           expand: true
-          cwd: 'styles'
+          cwd: 'src'
           src: ['*.scss']
           dest: 'src'
           ext: '.css'
@@ -21,7 +21,7 @@ module.exports = (grunt) ->
       target:
         files: [
           expand: true
-          cwd: 'release/css'
+          cwd: 'src'
           src: ['*.css', '!*.min.css']
           dest: 'build'
           ext: '.min.css'
