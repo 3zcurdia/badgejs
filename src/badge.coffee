@@ -17,7 +17,7 @@
       for lang in languagesSorted
         @item.append("<span class='badge-#{lang.toLowerCase()}' title='It has more than #{easyNumber(languages[lang])} lines of #{lang} code'></span>")
 
-    $.get("https://getbadger.herokuapp.com/github/#{@options.username}/languages/").done (data) => setBadges(data)
+    $.get("https://greport.herokuapp.com/gh/#{@options.username}/languages/").done (data) => setBadges(data)
     true
 
   $.fn.badger = (options) ->

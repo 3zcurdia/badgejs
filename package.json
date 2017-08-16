@@ -1,12 +1,12 @@
 {
   "name": "badge",
   "description": "Generate programing language badges by fetching from Github",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-coffee": "^0.7.0",
-    "grunt-contrib-cssmin": "0.6.x",
+    "grunt-contrib-cssmin": "^0.6.2",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-uglify": "~0.5.0"
+    "grunt-contrib-uglify": "^0.5.1"
   }
 }

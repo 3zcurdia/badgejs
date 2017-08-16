@@ -36,7 +36,7 @@
         }
         return _results;
       };
-      $.get("https://getbadger.herokuapp.com/github/" + this.options.username + "/languages/").done(function(data) {
+      $.get("https://greport.herokuapp.com/gh/" + this.options.username + "/languages/").done(function(data) {
         return setBadges(data);
       });
       return true;
